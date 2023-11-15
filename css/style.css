@@ -1,0 +1,11 @@
+body {
+    background-color: black;
+}
+
+#wrapper {
+    height: 2000px;
+    max-width: 990px;
+    width: 100%;
+    background-color: rgb(157, 76, 233), 226);
+    margin: 0 auto;
+}
