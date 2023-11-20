@@ -1,11 +1,158 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 body {
     background-color: black;
 }
 
 #wrapper {
-    height: 2000px;
-    max-width: 990px;
-    width: 100%;
-    background-color: rgb(157, 76, 233), 226);
-    margin: 0 auto;
+     height: 2900px;
+     max-width: 990px;
+     width: 100%;
+     background-image: url(../img/Group-5.png);
+     margin: 0 auto;
+     position: relative;
 }
+
+
+.toptext {
+     position: relative;
+     top: -80px;
+     left: 400px;
+     width: 520px;
+}
+
+.people {
+     position: relative;
+     z-index: 30;
+     top: -300px;
+     left: 50px;
+}
+
+.moon  {
+     position: relative;
+     top: -30px;
+     left: -520px;
+}
+
+.wave {
+     position: relative;
+     top: -400px;
+     z-index: 10;
+}
+
+.bamboo1 {
+     position: absolute;
+     top: 370px;
+     z-index: 40;
+     left: 0px;
+}
+
+.kare {
+     position: absolute;
+     top: 490px;
+     z-index: 50;
+     left: 50px;
+}
+
+.ramen {
+     position: absolute;
+     top: 490px;
+     z-index: 40;
+     left: 370px;
+}
+
+.hitsumabusi {
+     position: absolute;
+     top: 490px;
+     z-index: 50;
+     right: 50px;
+}
+
+.cloud {
+     position: absolute;
+     top: 590px;
+     z-index: 50;
+}
+
+.text2 {
+     position: relative;
+     top: -280px;
+     z-index: 50;
+     left: 140px;
+}
+
+.lightcolor {
+     position: absolute;
+     mix-blend-mode: lighten;
+     z-index: 20;
+}
+
+.star {
+     position: relative; 
+     top: -1200px;
+     left: 870px;
+}
+
+.libra {
+     position: relative;
+     top: -1100px;
+     right: 120px;
+}
+
+.aries {
+     position: relative;
+     top: -600px;
+     left: 330px;
+}
+
+.scorpio {
+     position: relative;
+     top: 600px;
+     right: 375px;
+}
+
+.blendmode {
+     position: absolute;
+     mix-blend-mode: lighten; 
+     top: 0px;
+}
+
+.button {
+     display: flex;
+     width: 100%;
+     margin: 23px;
+     padding: 70px;
+}
+
+.button li{
+     width: 50%;
+     list-style: none;
+}
+
+.button img {
+     position: relative;
+     top: -300px;
+}
+
+ .tag-menu1 {
+     position: relative;
+     top: -600px;
+     margin: 250px 210px;
+ }
+
+ .pic-menu1 {
+    position: relative;
+    top: -850px; 
+ }
+
+ .menu-1 p {
+    color: aliceblue;
+    position: relative;
+    top: -1100px;
+    left: 370px;
+ }
