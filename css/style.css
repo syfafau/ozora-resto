@@ -1,4 +1,7 @@
 
+
+  @import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
@@ -139,53 +142,46 @@ body {
      top: -300px;
 }
 
-
- .sub-2 p {
-    color: aliceblue;
-    position: relative;
-    top: -1100px;
-    left: 370px;
- }
-
- .tag-menu1 {
+.container {
+     color: aliceblue;
+     justify-content: center;
+     align-items: center;
+     display: flex;
      position: relative;
-     top: -600px;
-     margin: 250px 210px;
- }
+     bottom: 350px;
+}
 
- .pic-menu1 {
-    position: relative;
-    top: -850px; 
- }
+.tag  li {
+list-style: none;
+}
+  
 
- .tag-menu2 {
+.tag p {
      position: relative;
-     top: -1200px;
-     margin: 250px 210px;
- }
+     top: -230px;
+     left: 170px;
+     font-family: 'Zen Kaku Gothic New', sans-serif;
+     font-weight: 100px;
+     font-size: 16px;
+}
 
- .pic-menu2 {
-    position: relative;
-    top: -1450px; 
-    padding-left: 630px;
- }
-
- .menu-2 p {
-     top: -1700px;
-     left: 20px;
- }
-
- .tag-menu3 {
+.menu-1 img{
      position: relative;
-     top: -1800px;
-     margin: 250px 210px;
- }
+     left: -190px;
+}
 
- .pic-menu3 {
-    position: relative;
-    top: -2000px; 
- }
+.menu-1 {
+     height: 350px;
+}
 
- .menu-3 p {
-     top: -2300px;
- }
+.menu-2 img {
+     position: relative;
+     left: 437px;
+}
+.menu-2 p {
+     position: relative;
+     left: -168px;
+}
+.menu-2 {
+     height: 350px;
+}
