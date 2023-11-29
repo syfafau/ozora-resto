@@ -10,7 +10,28 @@
 
 body {
     background-color: black;
+    margin-top: -10px;
 }
+
+.decoration > *{
+     animation: fly 5s linear infinite;
+     top: 0;
+      left: 0;
+      position: fixed;
+      z-index: 999;
+      pointer-events: none;
+ }
+ @keyframes fly {
+     0%{
+         transform: translateY(0,110vh);opacity: .50;
+     }
+     50%{
+         transform: translateY(110vw,0);opacity: 1; 
+     }
+     100%{
+         transform: translateY(0,110vh);opacity: .50;
+     }
+ }
 
 #wrapper {
      height: 2900px;
@@ -103,7 +124,7 @@ body {
 
 .star {
      position: relative; 
-     top: -1150px;
+     top: -1200px;
      left: 870px;
 }
 
@@ -201,7 +222,7 @@ body {
 
 .menu-1 img{
      position: relative;
-     left: -190px;
+     left: -193px;
 }
 
 .menu-1 {
@@ -210,7 +231,7 @@ body {
 
 .menu-2 img {
      position: relative;
-     left: 437px;
+     left: 435px;
 }
 .menu-2 p {
      position: relative;
@@ -238,12 +259,44 @@ body {
 }
 
 .coupon img:hover {
-     transform: translate(5px, -5px);
+     transform: scale(1.05);
      z-index: 300;
-     box-shadow: inset 0 0 10px rgba(253, 230, 27, 0.6), 0 0 9px 3px rgba(238, 214, 105, 0.2);
+     box-shadow: inset 0 0 20px rgba(253, 200, 27, 0.6), 0 0 9px 5px rgba(252, 233, 147, 0.2);
    }
+
+
+
+
+@media only screen and (max-width: 425px) {
+     .all-top {
+       display: block;
+     }
    
-.coupon img:hover:before {
-     transform: translateY(15em);
+     .top {
+       width: 100%;
+     }
+
+     .blendmode {
+          width: 100%;
+     }
+
+     .lightcolor {
+          width: 100%;
+     }
+
+     .button {
+          width: 100%;
+     }
+
+     .container {
+          width: 100%;
+     }
+
+     .tag {
+          width: 100%;
+     }
+     .bottom {
+          width: 100%;
+     }
+
    }
- 
