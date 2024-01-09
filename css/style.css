@@ -15,8 +15,6 @@ body {
 
 .decoration > *{
      animation: fly 5s linear infinite;
-     top: 0;
-      left: 0;
       position: fixed;
       z-index: 999;
       pointer-events: none;
@@ -33,6 +31,31 @@ body {
      }
  }
 
+ .lamp2 {
+     top: 0;
+     right: 0;
+ }
+
+ .lamp3 {
+     top: 400px;
+     right: 300px;
+ }
+
+ .lamp4 {
+     top: 200px;
+     left: 110px;
+ }
+
+ .lamp5 {
+     top: 800px;
+     left: 300px;
+ }
+
+ .lamp6 {
+     top: 750px;
+     right: 110px;
+ }
+
 #wrapper {
      height: 2900px;
      max-width: 990px;
@@ -41,7 +64,6 @@ body {
      margin: 0 auto;
      position: relative;
 }
-
 
 .toptext {
      position: relative;
